@@ -4,7 +4,7 @@
  */
 
 const mongoose = require('mongoose');
-const Product = require('./models/Product');
+const Product = require('../models/Product');
 
 // Database connection (update with your actual connection string)
 const connectDB = async () => {
